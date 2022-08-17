@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.small-text{
+    font-size: small;
+    padding: 10px
+}
+.header-text{
+
+}
+body{
+    font-family: 'Sora', sans-serif;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 3px black;
+    font-weight: 500;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo{
+    font-weight: 800;
+    font-size: 25px;
+    background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0%, rgb(252, 251, 121) 90%);
+    background-clip: text;
+    color: transparent;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-link {
+    padding: 0px 30px;
+    list-style: none;
+
+}
+.hero{
+    background-image: url('images/ecomm2.jpg');
+    width: 100vw;
+    margin: 0 auto;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 52%;
+    text-align: center;
+}
+
+.hero-button{
+    width: 300px;
+position: absolute;
+left:24% ;
+bottom:27%;
+padding:10px 20px;
+background-color: rgb(54, 254, 44);
+color: rgb(255, 8, 8);
+font-size: large;
+font-family: 'Sora', sans-serif;
+border: 0px solid rgb(255, 20, 20);
+border-radius: 10px;
+}
+
+.new-arrivals{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.new-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+.new-item{
+    background-color: rgb(244, 244, 244);
+    margin: 2px;
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+
+}
+img{
+    max-width:100%
+}
+.new-arrivals-image-container{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.new-arrivals-image{
+    position: absolute;
+    bottom:0;
+
+}
+.new-arrivals-image:hover{
+    transform: scale(1.1)
+}
+.footer-socials:hover {
+    transform: scale(1.1)
+}
+.arrivals-image-02{
+width: 130%;
+height: 110%;
+}
+#arrivals-image-03{
+    bottom: 20%;
+    }
+#arrivals-image-04{
+    bottom: 10%;
+    }
+.new-arrivals-text{
+    text-align:center;
+    font-size: 40px;
+    padding:20px
+
+
+}
+
+
+
+.review-section{
+    margin-bottom: 150px;
+}
+
+.review-container{
+    display: flex;
+    justify-content: space-around;
+    margin:150px 0px 100px 0;
+}
+.review-card{
+   text-align: center;
+   width: 300px
+
+}
+.user-dp::after{
+    content: attr(data-rating);
+    position: absolute;
+    padding-top: 120px
+    
+}
+
+.footer{
+    width: 100vw;
+    height:40vh;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer-logo{
+    font-size: 70px;
+}
+.footer-section-01{
+    text-align:center;
+}
+.footer-section-02{
+    text-align:center;
+}
+.footer-socials{
+    margin: 20px;
+    width: 50px
+}
+ul{
+    list-style: none;
+    text-align: center;
+    
+}
+.footer-list{
+    padding: 5px
+}
+
+
+
+
+#new-arrivals-product{
+    display: flex;
+    flex-direction: column;
+}
+.new-item-product{
+    height: 60vh
+}
+.product-specs li{
+    padding: 5px;
+}
+.buy-now-btn{
+    width: 200px;
+    height: 40px
+}
