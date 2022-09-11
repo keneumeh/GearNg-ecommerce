@@ -25,7 +25,13 @@ const ProductScreen = {
           </li>
         </ul>
       </div>
-      <button class="buy-now-btn">BUY NOW!</button>
+      <div class="cart-overview-container" style='background-color:transparent;'>
+          
+          <div class="cart-buttons-container">
+            <button class="buy-now-btn">BUY NOW</button>
+            <button class="buy-now-btn"> <a href="/#/cart">Add to Cart</a></button>
+          </div>
+        </div>
     </div>
   </div>
         `;

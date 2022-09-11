@@ -9,8 +9,10 @@ html{
 --black: hsl(150, 4%, 11%);
 --grey: rgb(244, 244, 244);
 --light-grey: #808080;
+--lighter-grey: #afafaf;
 --yellow: #efc801;
 --green: rgb(59, 122, 84);
+--white: #fff
 
 }
 body{
@@ -75,6 +77,9 @@ footer{
     margin-bottom: 0;
     height: 42rem;
 }
+li{
+    list-style-type: none;
+}
 .product{
     display: flex;
     flex-direction: column;
@@ -97,4 +102,76 @@ footer{
 }
 .product-price{
     font-size: 2rem;
+}
+
+
+
+.cart-container{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.cart-item-container{
+width: 100vw;
+background-color: var(--white);
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.cart-item{
+    display: flex;
+    height: 5rem;
+    padding: 5px;
+    background-color: var(--grey);
+    text-align: center;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+}
+.cart-item-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.cart-item-price{
+    background-color: var(--white);
+    height: 3rem;
+    width: 10rem;
+    margin: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+.cart-overview-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    border-radius: 1rem;
+    background-color: var(--lighter-grey);
+    margin: 0 auto;
+}
+.cart-total-price{
+    margin: 1rem;
+    font-weight: 800;
+    color: var(--white);
+    font-size: 2rem;
+}
+.buy-now-btn{
+    width: 20rem;
+    height: 4rem;
+    margin: 1rem;
+    border: 0px solid;
+    border-radius: 0.5rem;
+}
+.cart-buttons-container{
+    margin: auto;
+    text-align: center;
 }
